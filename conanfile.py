@@ -14,7 +14,6 @@ class LibnameConan(ConanFile):
     no_copy_source = True
 
     # Packages the license for the conanfile.py
-    exports = ["LICENSE.md"]
 
     # Custom attributes for Bincrafters recipe conventions
     _source_subfolder = "source_subfolder"
